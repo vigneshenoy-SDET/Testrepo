@@ -26,7 +26,7 @@ public class CreateAccount {
 	private WebElement Password_Check;
 
 	@FindBy(id = "continue")
-	private WebElement Continue;
+	private WebElement Submit;
 
 	public CreateAccount(WebDriver wdl) {
 		this.wd=wdl;
@@ -54,7 +54,7 @@ public class CreateAccount {
 	}
 
 	public void submit() {
-		Continue.click();
+		Submit.click();
 	}
 
 }

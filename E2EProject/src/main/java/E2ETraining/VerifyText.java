@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class VerifyText {
 	
 	WebDriver wd;
-	private By textLine = By.xpath("//span[@class='a-size-base a-color-base']");
+	private By text = By.xpath("//span[@class='a-size-base a-color-base']");
 	
 	
 	public VerifyText(WebDriver wdr) {
@@ -15,7 +15,7 @@ public class VerifyText {
 
 
 	public String checkText(){
-		return wd.findElement(textLine).getText();
+		return wd.findElement(text).getText();
 	}
 
 }
