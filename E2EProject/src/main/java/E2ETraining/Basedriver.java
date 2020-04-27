@@ -69,6 +69,6 @@ public class Basedriver {
 
 		File src = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
 
-		FileUtils.copyFile(src, new File("E:/Vignesh/" + failure + "_screenshot.jpg"));
+		FileUtils.copyFile(src, new File("E:/Vignesh/" + failure + "_error_screenshot.jpg"));
 	}
 }
