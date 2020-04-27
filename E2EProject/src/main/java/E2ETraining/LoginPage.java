@@ -8,14 +8,14 @@ public class LoginPage {
 
 	WebDriver drive;
 
-	private By Login = By.xpath("//a[@id='nav-link-accountList']");
+	private By LoginButton = By.xpath("//a[@id='nav-link-accountList']");
 
 	public LoginPage(WebDriver wdl) {
 		this.drive = wdl;
 	}
 
 	public WebElement getLogin() {
-		return drive.findElement(Login);
+		return drive.findElement(LoginButton);
 	}
 
 }
