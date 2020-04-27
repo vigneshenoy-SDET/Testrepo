@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2ETraining.ListenersTest"/>
+  </listeners>
+  <test thread-count="5" name="TextVerificationTest(failed)">
+    <classes>
+      <class name="E2ETraining.TextVerificationTest">
+        <methods>
+          <include name="compareText"/>
+          <include name="landingPage"/>
+        </methods>
+      </class> <!-- E2ETraining.TextVerificationTest -->
+    </classes>
+  </test> <!-- TextVerificationTest(failed) -->
+  <test thread-count="5" name="NewAccountTest(failed)">
+    <classes>
+      <class name="E2ETraining.NewAccountTest">
+        <methods>
+          <include name="enterDetails" invocation-numbers="1"/>
+          <include name="closeBrowser"/>
+          <include name="landingPage"/>
+        </methods>
+      </class> <!-- E2ETraining.NewAccountTest -->
+    </classes>
+  </test> <!-- NewAccountTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

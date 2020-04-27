@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="E2ETraining.ListenersTest" />
+	</listeners>
+	<test thread-count="1" name="LandingTest">
+		<classes>
+			<class name="E2ETraining.LandingPageTest" />
+		</classes>
+	</test>
+	<test thread-count="1" name="LoginTest">
+		<classes>
+			<class name="E2ETraining.LoginTest" />
+		</classes>
+	</test>   
+	<test thread-count="1" name="TextVerificationTest">
+		<classes>
+			<class name="E2ETraining.TextVerificationTest" />
+		</classes>
+	</test>
+	<test thread-count="1" name="NewAccountTest">
+		<classes>
+			<class name="E2ETraining.NewAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

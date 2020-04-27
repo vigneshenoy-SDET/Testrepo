@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="167721" started-at="2020-04-23T13:21:35Z" finished-at="2020-04-23T13:24:23Z">
+    <groups>
+    </groups>
+    <test name="LandingTest" duration-ms="47614" started-at="2020-04-23T13:21:35Z" finished-at="2020-04-23T13:22:23Z">
+      <class name="E2ETraining.LandingPageTest">
+        <test-method status="PASS" signature="launchHome()[pri:0, instance:E2ETraining.LandingPageTest@4f83df68]" name="launchHome" duration-ms="44373" started-at="2020-04-23T13:21:36Z" finished-at="2020-04-23T13:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2ETraining.LandingPageTest@4f83df68]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2020-04-23T13:22:20Z" finished-at="2020-04-23T13:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2ETraining.LandingPageTest -->
+    </test> <!-- LandingTest -->
+    <test name="LoginTest" duration-ms="46296" started-at="2020-04-23T13:22:23Z" finished-at="2020-04-23T13:23:10Z">
+      <class name="E2ETraining.LoginTest">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:E2ETraining.LoginTest@368f2016]" name="landingPage" is-config="true" duration-ms="20629" started-at="2020-04-23T13:22:23Z" finished-at="2020-04-23T13:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="newLogin()[pri:0, instance:E2ETraining.LoginTest@368f2016]" name="newLogin" duration-ms="14435" started-at="2020-04-23T13:22:44Z" finished-at="2020-04-23T13:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2ETraining.LoginTest@368f2016]" name="closeBrowser" is-config="true" duration-ms="11224" started-at="2020-04-23T13:22:58Z" finished-at="2020-04-23T13:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2ETraining.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="TextVerificationTest" duration-ms="17282" started-at="2020-04-23T13:23:10Z" finished-at="2020-04-23T13:23:27Z">
+      <class name="E2ETraining.TextVerificationTest">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:E2ETraining.TextVerificationTest@47eaca72]" name="landingPage" is-config="true" duration-ms="12408" started-at="2020-04-23T13:23:10Z" finished-at="2020-04-23T13:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="compareText()[pri:0, instance:E2ETraining.TextVerificationTest@47eaca72]" name="compareText" duration-ms="903" started-at="2020-04-23T13:23:22Z" finished-at="2020-04-23T13:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2ETraining.TextVerificationTest@47eaca72]" name="closeBrowser" is-config="true" duration-ms="3968" started-at="2020-04-23T13:23:23Z" finished-at="2020-04-23T13:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2ETraining.TextVerificationTest -->
+    </test> <!-- TextVerificationTest -->
+    <test name="NewAccountTest" duration-ms="55866" started-at="2020-04-23T13:23:27Z" finished-at="2020-04-23T13:24:23Z">
+      <class name="E2ETraining.NewAccountTest">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:E2ETraining.NewAccountTest@77888435]" name="landingPage" is-config="true" duration-ms="5405" started-at="2020-04-23T13:23:27Z" finished-at="2020-04-23T13:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2ETraining.NewAccountTest@77888435]" name="enterDetails" duration-ms="26647" started-at="2020-04-23T13:23:32Z" data-provider="testData" finished-at="2020-04-23T13:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrooney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wr_mufc10@mutd.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrpwd@10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="enterDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2ETraining.NewAccountTest@77888435]" name="enterDetails" duration-ms="20972" started-at="2020-04-23T13:23:59Z" data-provider="testData" finished-at="2020-04-23T13:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cronaldo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cr7@mutd.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c_ronaldo7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2ETraining.NewAccountTest@77888435]" name="closeBrowser" is-config="true" duration-ms="2828" started-at="2020-04-23T13:24:20Z" finished-at="2020-04-23T13:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2ETraining.NewAccountTest -->
+    </test> <!-- NewAccountTest -->
+  </suite> <!-- Suite -->
+</testng-results>
